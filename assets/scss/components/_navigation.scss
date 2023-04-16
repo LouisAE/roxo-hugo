@@ -28,6 +28,9 @@
     @include desktop{
       text-align: center;
     }
+    a::before{
+        background-image:url("/images/nav-items-prefix.png");
+    }
     .nav-link{
       font-family: $secondary-font;
       color: $text-color-dark;
@@ -85,5 +88,8 @@
     @include mobile{
       padding: 15px;
     }
+  }
+  #logotitle{
+    color:$secondary-color;
   }
 }

@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg site-navigation">
   <div class="container">
-    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}" id="logotitle">
       <img src="{{ "images/logo2.png" | absURL }}" alt="logo" />
+     非遗文化传承探索之旅
     </a>
     <button
       class="navbar-toggler collapsed"
@@ -33,7 +34,7 @@
             </a>
           </li>
           {{ else }}
-          <li class="nav-item">
+          <li class="nav-item" >
             <a class="nav-link" href="{{ .URL | absURL }}"
               >{{ .Name }}</a
             >

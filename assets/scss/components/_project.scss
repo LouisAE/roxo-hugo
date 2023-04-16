@@ -1,6 +1,8 @@
 .site-project{
   padding: 120px 0;
   overflow: hidden;
+  background-image: url("/images/backgrounds/project-background.png");
+  background-size: cover;
   &-item{
     position: relative;
     margin-bottom: 30px;
