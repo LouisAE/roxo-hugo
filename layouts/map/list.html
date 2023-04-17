@@ -24,6 +24,13 @@
                 map: map,
             }));
         }
+        let cover = new AMap.ImageLayer({
+            bounds:new AMap.Bounds(new AMap.LngLat(74,18),new AMap.LngLat(133,52)),
+            url:"https://cdn.ncmc.me/static/nowgo/china-map-cover.png",
+            opacity:0.4,
+            map:map,
+            zooms:[0,Infinity]
+        });
     </script>
 
 </section>
