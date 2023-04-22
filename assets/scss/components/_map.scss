@@ -47,4 +47,13 @@
   #table0 table td,th{
     border: 1px solid black;
   }
+  .marker-number{
+    text-align:center;
+    color:red;
+    width:19px;
+    height:33px;
+    background:url("/images/mark_bs.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+  }
 }
