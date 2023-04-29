@@ -36,11 +36,10 @@
       text-decoration: underline;
     }
   }
-  .deep-content{
-    h3::before{
-      height:20px;
-      width:20px;
-      background-color:#9a2929;
-    }
+  .deep-buy{
+    padding-right:0;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    border-width:2px;
   }
 }
