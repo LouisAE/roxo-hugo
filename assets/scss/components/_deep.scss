@@ -1,15 +1,46 @@
 .site-deep{
-  .select{
-    margin:20px;
-    font-size: 20px;
-    a{
-      color:#9a2929;
+  margin-left:30px;
+  .deep-main,.day-select,.deep-content,.deep-content-item,.deep-buy{
+    margin-top:20px;
+  }
+  .list-group{
+    .list-group-item{
+
+      color:black;
+    }
+    a.active{
+      background:#9a2929;
+      color:white;
     }
   }
-  .active{
-    background:#9a2929;
+
+  .deep-content-item{
+    background: #eee5dd;
+    width:100%;
+    div{
+      margin:10px;
+    }
+  }
+  .select{
+    background: #eee5dd;
+    padding: 5px 20px 5px 20px ;
+    font-size: 20px;
+    a{
+      color:black;
+    }
+  }
+  li.active{
+    background: #9a2929;
     a{
       color:white;
+      text-decoration: underline;
+    }
+  }
+  .deep-content{
+    h3::before{
+      height:20px;
+      width:20px;
+      background-color:#9a2929;
     }
   }
 }
