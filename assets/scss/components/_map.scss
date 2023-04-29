@@ -1,12 +1,10 @@
 .site-map{
   margin-top:100px;
+  height:800px;
   .btn{
    padding: 10px 20px;
   }
-  .container{
-    width:auto;
-    margin-right:auto;
-  }
+
   #list0,#list1,#list2{
     margin-top: 20px;
     float: left;
@@ -36,7 +34,6 @@
     width: 100%;
     margin:0 auto;
     height: 800px;
-    display: inline;
   }
   #table0 table{
     table-layout: fixed;
