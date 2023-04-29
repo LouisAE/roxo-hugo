@@ -1,0 +1,15 @@
+.site-deep{
+  .select{
+    margin:20px;
+    font-size: 20px;
+    a{
+      color:#9a2929;
+    }
+  }
+  .active{
+    background:#9a2929;
+    a{
+      color:white;
+    }
+  }
+}
