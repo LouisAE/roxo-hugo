@@ -1,48 +1,10 @@
 .site-map{
   margin-top:100px;
   height:800px;
-  .btn{
-   padding: 10px 20px;
-  }
-
-  #list0,#list1,#list2{
-    margin-top: 20px;
-    float: left;
-  }
-  #content,#content1,#content2{
-    display:none;
-    font-size: 20px;
-    color:red;
-    background-color: #f9f9f9;
-    min-width: 40px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-  }
-  #list0:hover #content{
-     display:block;
-   }
-  #list1:hover #content1{
-    display:block;
-  }
-  #list2:hover #content2{
-      display:block;
-  }
-  .items{
-    list-style-type: none;
-  }
   #amap {
     width: 100%;
     margin:0 auto;
     height: 800px;
-  }
-  #table0 table{
-    table-layout: fixed;
-    border: 3px solid black;
-    border-collapse: collapse;
-    width:100%;
-  }
-  #table0 table td,th{
-    border: 1px solid black;
   }
   .marker-number{
     text-align:center;
@@ -52,5 +14,47 @@
     background:url("/images/mark_bs.png");
     background-size:contain;
     background-repeat: no-repeat;
+  }
+
+  .select{
+    background: #eee5dd;
+    padding: 10px 25px 10px 25px;
+    font-size: 15px;
+    width:16%;
+    text-align: center;
+    a{
+      color:black;
+    }
+  }
+  .feiyi{
+     width:50%;
+   }
+  li.active{
+    background: #9a2929;
+    a{
+      color:white;
+      text-decoration: underline;
+    }
+  }
+  .media-body{
+    margin-left:5px;
+    span{
+      color:black;
+    }
+    span.orange{
+       color:orange;
+    }
+  }
+  .map-detail{
+    .media{
+      border-style:solid;
+      border-color:white;
+      padding:0;
+      background: #e7dddd;
+      margin-top:10px;
+    }
+  }
+  .misc-container,.feiyi-container{
+    padding:0;
   }
 }
